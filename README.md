@@ -8,6 +8,7 @@
 
 - CDIR block
 > CIDR block a method for allocating IP addresses and IP routing in the VPC. The IP can be IPv4 or IPv6 format.
+
 > When you create a VPC, you assign it an IPv4/IPv6 CIDR block (a range of private and public IPv4/ipv6 addresses), or both (dual-stack). Private IPv4/IPv6 addresses are not reachable over the internet while public addresses are. To connect to your instance over the internet, or to enable communication between your instances and other AWS services that have public endpoints, you can assign a public IPv4/IPv6 address to your instance.
 
 - IPV4 and IPV6

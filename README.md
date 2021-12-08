@@ -29,12 +29,22 @@
 ##### AWS Example of public Route Table
 ![image](https://user-images.githubusercontent.com/94615905/145204885-7fa4966f-8a7c-4af7-bb4d-6e3de1f70065.png)
 
-To make a route table public it needs to have access to the internet.
-- v
-  - h
-
+- To make a route table public it needs to have access to the internet.
+  - This can be done by adding a route that targets a internet gateway into the route table `igw-0054c33fa8aab190d` in the image above.
+- `local` is added to allow local access to the public subnet.
 
 #### Route table rules for private subnet
+##### AWS Example of private Route Table for db
+![image](https://user-images.githubusercontent.com/94615905/145206724-77161930-c4ed-4f6e-bfb6-27831d03aa3a.png)
+
+- To make a route table private it **cannot** have access to the internet.
+- To allow internet access to the db and still keep the db private you need to create a Nat instance in the public subnet and have the Nat instance connect to the db in the private subnet.
+
+![image](https://user-images.githubusercontent.com/94615905/145207956-a6340ce1-cf00-4494-b7c8-dd0d16a9bc22.png)
+
+  - Internet can only be used in the db instance as long as the Nat istance is running and the db is connected to is
+
+- `eni-04bf4bd8fbf477b3b` is a nat instance that can connect to the private subnet
 
 - SG rules
 - Subnets cidr blocks

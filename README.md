@@ -29,8 +29,9 @@
 ##### AWS Example of public Route Table
 ![image](https://user-images.githubusercontent.com/94615905/145204885-7fa4966f-8a7c-4af7-bb4d-6e3de1f70065.png)
 
-- - testing
-- > test
+To make a route table public it needs to have access to the internet.
+- v
+  -h
 
 
 #### Route table rules for private subnet

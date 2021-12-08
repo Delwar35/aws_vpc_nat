@@ -4,7 +4,7 @@
 
 **AWS Networking**
 - IP address
-- > An IP address (Internet Protocol address) is a label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification and location addressing.
+> An IP address (Internet Protocol address) is a label such as 192.0.2.1 that is connected to a computer network that uses the Internet Protocol for communication. An IP address serves two main functions: network interface identification and location addressing.
 - CDIR block
 - IPV4 and IPV6
 

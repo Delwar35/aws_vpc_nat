@@ -23,6 +23,12 @@
 ![image](https://user-images.githubusercontent.com/94615905/145200431-e4544185-55b0-4cf5-913a-fdc5e904d4f6.png)
 
 - Route table rules
+> A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed.
+
+#### Route table rules for public subnet
+
+#### Route table rules for private subnet
+
 - SG rules
 - Subnets cidr blocks
 - Connectivity between app and db and app nat db

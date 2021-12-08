@@ -31,7 +31,7 @@
 
 To make a route table public it needs to have access to the internet.
 - v
-  -h
+  - h
 
 
 #### Route table rules for private subnet

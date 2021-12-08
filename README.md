@@ -17,8 +17,10 @@
 - Connectivity between app and db and app nat db
 
 **2 Tier Architecture Deployment in our own VPC**
-- ![](add a diagram)
+
+![image](https://user-images.githubusercontent.com/94615905/145200767-1f3b2c69-9d25-45de-aafc-4d77d9f448c8.png)
+
 - should have all rules at all levels required
 
 
-# aws_vpc_nat
+

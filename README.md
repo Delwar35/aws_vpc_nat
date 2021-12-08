@@ -43,7 +43,7 @@
 
 ![image](https://user-images.githubusercontent.com/94615905/145207956-a6340ce1-cf00-4494-b7c8-dd0d16a9bc22.png)
 
-  - Internet can only be used in the db instance as long as the Nat istance is running and the db is connected to is
+ - Internet can only be used in the db instance as long as the Nat istance is running and the db is connected to is
 
 
 

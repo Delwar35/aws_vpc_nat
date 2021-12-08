@@ -9,7 +9,7 @@
 
 **VPC and its resources**
 
-![image](https://user-images.githubusercontent.com/94615905/145200214-c4e29ceb-2846-46fd-8cdb-d6e6fe6ac246.png)
+![image](https://user-images.githubusercontent.com/94615905/145200431-e4544185-55b0-4cf5-913a-fdc5e904d4f6.png)
 
 - Route table rules
 - SG rules

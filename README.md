@@ -38,13 +38,14 @@
 ![image](https://user-images.githubusercontent.com/94615905/145206724-77161930-c4ed-4f6e-bfb6-27831d03aa3a.png)
 
 - To make a route table private it **cannot** have access to the internet.
+- `eni-04bf4bd8fbf477b3b` is a nat instance that can connect to the private subnet
 - To allow internet access to the db and still keep the db private you need to create a Nat instance in the public subnet and have the Nat instance connect to the db in the private subnet.
 
 ![image](https://user-images.githubusercontent.com/94615905/145207956-a6340ce1-cf00-4494-b7c8-dd0d16a9bc22.png)
 
   - Internet can only be used in the db instance as long as the Nat istance is running and the db is connected to is
 
-- `eni-04bf4bd8fbf477b3b` is a nat instance that can connect to the private subnet
+
 
 - SG rules
 - Subnets cidr blocks

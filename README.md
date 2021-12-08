@@ -8,7 +8,9 @@
 - IPV4 and IPV6
 
 **VPC and its resources**
-- ![](add a VPC diagram)
+
+![image](https://user-images.githubusercontent.com/94615905/145200214-c4e29ceb-2846-46fd-8cdb-d6e6fe6ac246.png)
+
 - Route table rules
 - SG rules
 - Subnets cidr blocks

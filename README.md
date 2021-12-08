@@ -26,6 +26,12 @@
 > A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed.
 
 #### Route table rules for public subnet
+##### AWS Example of public Route Table
+![image](https://user-images.githubusercontent.com/94615905/145204885-7fa4966f-8a7c-4af7-bb4d-6e3de1f70065.png)
+
+-- testing
+-> test
+
 
 #### Route table rules for private subnet
 
